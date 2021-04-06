@@ -1,0 +1,165 @@
+.check-out{
+    background: white;
+}
+.check-out-page{
+    border-right: 1px solid #d2d2d2;
+}
+.check-out-form-heading bold{
+    font-size: 23px;
+    font-weight: bold;
+    margin-right: 8px;
+}
+.check-out-form-heading p{
+    margin-top: 20px;
+}
+.check-out-heading{
+    color: #D10000;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.form-1 input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+    
+}
+.form-1 input:focus{
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.form-1 select{
+    width: 41%;
+    height: 40px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black; 
+    margin-right: 40px;
+    margin-top: 6px;
+}
+.form-1 select:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-2 input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+.form-2 input:focus{
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.form-2 #address,
+.form-2 #town-city{
+    width: 90%;
+}
+.form-2 select{
+    width: 41%;
+    height: 40px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black; 
+    margin-right: 40px;
+    margin-top: 6px;
+}
+.form-2 select:focus{
+    outline: none;
+    box-shadow: none;
+}
+.same-as-billing{
+    margin-bottom: 25px;
+}
+.same-as-billing .form-check-label{
+    font-size: 20px;
+
+}
+.same-as-billing .form-check-input{
+    margin-top: 11px;
+}
+.form-3 select{
+    width: 50%;
+    height: 40px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid black; 
+    margin-right: 40px;
+    margin-top: 6px;
+}
+.form-3 select:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-3 input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+.form-3 input:focus{
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.form-3 #name-on-card{
+    width: 100%;
+}
+.expiration_date input{
+    border-radius: 0px;
+}
+.expiration_date input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.security-code input{
+    border-radius: 0px;
+}
+.security-code input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-4 input{
+    border: none;
+    background: none;
+    border-bottom: 1px solid black;
+    margin-right: 40px;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+.form-4 input:focus{
+    outline: none;
+    box-shadow: none;
+    background: none;
+}
+.payment-icon{
+    margin-top: 25px;
+    width: 80%;
+}
+.order-review{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.order-review button{
+    background: #D10000;
+    border: none;
+    width: 190px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+}
+.order-review button:focus{
+    outline: none;
+    box-shadow: none;
+}

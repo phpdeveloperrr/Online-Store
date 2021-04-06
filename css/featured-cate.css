@@ -1,0 +1,490 @@
+.feature-cate-main{
+    padding: 30px 25px;
+    background-color: rgb(255, 255, 255);
+    border-top: 0px;
+    border-right: 1px solid rgb(226, 229, 241);
+}
+.feature-cate-main .featured-cate-heading{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    color: #040303;
+}
+.feature-cate-main .feature-listing-1{
+    padding: 0;
+}
+.feature-cate-main .feature-listing-1 li{
+    list-style: none ;
+}
+.feature-cate-main .feature-listing-1 li a{
+    padding: 8px 0;
+    display: block;
+    color: #7e859b;
+    font-size: 15px;
+    text-decoration: none;
+}
+.feature-cate-main .feature-listing-1 li a:hover{
+    color: blue;
+}
+.feature-cate-main .feature-cate-popular{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+    color: #040303;
+}
+.feature-cate-main .feature-listing-2{
+    padding: 0;
+}
+.feature-cate-main .feature-listing-2 li{
+    list-style: none ;
+}
+.feature-cate-main .feature-listing-2 li a{
+    padding: 8px 0;
+    display: block;
+    color: #7e859b;
+    font-size: 15px;
+    text-decoration: none;
+}
+.feature-cate-main .feature-listing-2 li a:hover{
+    color: blue;
+}
+.feature-cate-content{
+    padding: 0px;
+}
+
+
+/* MAIN BANNER */
+.feature-cate-content .feature-cate-banner img{
+    width: 100%;
+}
+/* MAIN BANNER */
+
+/* FEATURED CATEGORY SLIDER START*/
+.feature-cate-content .featured-kitchen-deal h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.feature-cate-content .featured-kitchen-deal a{
+    float: right;
+    font-weight: bold;
+    color: #3866df;
+    font-size: 0.916666rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding: 6px 12px;
+    border: 1px solid;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.feature-cate-slider-main{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.feature-cate-slider{
+    text-align: center;
+}
+.feature-cate-slider a{
+    text-decoration: none;
+    color: inherit;
+}
+.feature-cate-slider a:focus{
+    outline: none;
+}
+.feature-cate-slider img{
+    max-width: 100%;
+    height: 250px;
+}
+.feature-cate-slider .feature-cate-para{
+    margin-bottom: 4px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.feature-cate-slider .feature-aed-price span:first-child{
+    margin-right: 4px;
+}
+.feature-cate-slider .feature-aed-price span:nth-child(2){
+    font-weight: bold;
+    font-size: 1.333333rem;
+    color: black;
+}
+.feature-cate-slider .feature-aed-price span:nth-child(3){
+    color: #b2bbd2;
+    text-decoration: line-through;
+    font-size: 0.916666rem;
+}
+.feature-cate-slider .feature-cate-sell-offer span{
+    color: #38ae04;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0 4px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    background: #dde8dd;
+}
+.feature-cate-slider-main .slick-prev{
+    left: 0;
+}
+.feature-cate-slider-main .slick-next{
+    right: 0;
+
+}
+.feature-cate-slider-main .slick-prev,
+.feature-cate-slider-main .slick-next{
+    background: #c1bebe;
+    position: absolute;
+    top: 45% !important;
+    width: 54px;
+    height: 54px;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 999999;
+    margin: 0px;
+}
+.feature-cate-slider-main .draggable{
+    overflow: unset !important;
+}
+.feature-cate-slider-main .slick-slide{
+    height: fit-content;
+}
+/* FEATURED CATEGORY SLIDER END*/
+
+/* FEATURED CATEGORY BANNER START */
+.featured-cate-banner img{
+    width: 100%;
+    padding: 20px 15px;
+    display: block;
+}
+.featured-cate-card-banner img{
+    width: 100%;
+    margin-top: 15px;
+    height: 250px;
+}
+/* FEATURED CATEGORY BANNER END */
+
+/* Cookware Sets SLIDER CATE START */
+.cookware-sets-deal h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cookware-sets-deal a{
+    float: right;
+    font-weight: bold;
+    color: #3866df;
+    font-size: 0.916666rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding: 6px 12px;
+    border: 1px solid;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.cookware-sets-main{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cookware-sets-cate-slider{
+    text-align: center;
+}
+.cookware-sets-cate-slider a{
+    text-decoration: none;
+    color: inherit;
+}
+.cookware-sets-cate-slider a:focus{
+    outline: none;
+}
+.cookware-sets-cate-slider img{
+    max-width: 100%;
+    height: 250px;
+}
+.cookware-sets-cate-slider .cookware-sets-cate-para{
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.cookware-sets-cate-slider .cookware-sets-aed-price span:first-child{
+    margin-right: 4px;
+}
+.cookware-sets-cate-slider .cookware-sets-aed-price span:nth-child(2){
+    font-weight: bold;
+    font-size: 1.333333rem;
+    color: black;
+}
+.cookware-sets-cate-slider .cookware-sets-aed-price span:nth-child(3){
+    color: #b2bbd2;
+    text-decoration: line-through;
+    font-size: 0.916666rem;
+}
+.cookware-sets-cate-slider .cookware-sets-sell-offer span{
+    color: #38ae04;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0 4px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    background: #dde8dd;
+}
+.cookware-sets-main .slick-prev{
+    left: 0;
+}
+.cookware-sets-main .slick-next{
+    right: 0;
+}
+.cookware-sets-main .slick-prev,
+.cookware-sets-main .slick-next{
+    background: #c1bebe;
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    margin-top: -22px;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 999999;
+}
+.cookware-sets-main .draggable{
+    overflow: unset !important;
+}
+.cookware-sets-main .slick-slide{
+    height: fit-content;
+}
+/* Cookware Sets SLIDER CATE END */
+
+/* Kitchen Appliances SLIDER START */
+.kitchen-appliances-under h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.kitchen-appliances-under a{
+    float: right;
+    font-weight: bold;
+    color: #3866df;
+    font-size: 0.916666rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding: 6px 12px;
+    border: 1px solid;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.kitchen-appliances-main{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.kitchen-appliances-cate-slider a{
+    text-decoration: none;
+    color: inherit;
+}
+.kitchen-appliances-cate-slider a:focus{
+    outline: none;
+}
+.kitchen-appliances-cate-slider img{
+    max-width: 100%;
+}
+.kitchen-appliances-cate-slider .kitchen-appliances-cate-para{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10;
+}
+.kitchen-appliances-cate-slider .kitchen-appliances-aed-price span:first-child{
+    margin-right: 4px;
+}
+.kitchen-appliances-cate-slider .kitchen-appliances-aed-price span:nth-child(2){
+    font-weight: bold;
+    font-size: 1.333333rem;
+    color: black;
+}
+.kitchen-appliances-cate-slider .kitchen-appliances-aed-price span:nth-child(3){
+    color: #b2bbd2;
+    text-decoration: line-through;
+    font-size: 0.916666rem;
+}
+.kitchen-appliances-cate-slider .kitchen-appliances-sell-offer span{
+    color: #38ae04;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0 4px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    background: #dde8dd;
+}
+.kitchen-appliances-main .slick-prev{
+    left: 0;
+}
+.kitchen-appliances-main .slick-next{
+    right: 0;
+}
+.kitchen-appliances-main .slick-prev,
+.kitchen-appliances-main .slick-next{
+    background: #c1bebe;
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    margin-top: -22px;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 999999;
+}
+.kitchen-appliances-main .draggable{
+    overflow: unset !important;
+}
+.kitchen-appliances-main .slick-slide{
+    height: fit-content;
+}
+/* Kitchen Appliances SLIDER END */
+
+/* Cooking Range SLIDER START */
+.cooking-range h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.cooking-range a{
+    float: right;
+    font-weight: bold;
+    color: #3866df;
+    font-size: 0.916666rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    padding: 6px 12px;
+    border: 1px solid;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+.cooking-range-main{
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.cooking-range-cate-slider a{
+    text-decoration: none;
+    color: inherit;
+}
+.cooking-range-cate-slider a:focus{
+    outline: none;
+}
+.cooking-range-cate-slider img{
+    max-width: 100%;
+}
+.cooking-range-cate-slider .cooking-range-cate-para{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    margin-top: 10;
+}
+.cooking-range-cate-slider .cooking-range-aed-price span:first-child{
+    margin-right: 4px;
+}
+.cooking-range-cate-slider .cooking-range-aed-price span:nth-child(2){
+    font-weight: bold;
+    font-size: 1.333333rem;
+    color: black;
+}
+.cooking-range-cate-slider .cooking-range-aed-price span:nth-child(3){
+    color: #b2bbd2;
+    text-decoration: line-through;
+    font-size: 0.916666rem;
+}
+.cooking-range-cate-slider .cooking-range-sell-offer span{
+    color: #38ae04;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0 4px;
+    position: relative;
+    display: inline-block;
+    line-height: 16px;
+    background: #dde8dd;
+}
+.cooking-range-main .slick-prev{
+    left: 0;
+}
+.cooking-range-main .slick-next{
+    right: 0;
+}
+.cooking-range-main .slick-prev,
+.cooking-range-main .slick-next{
+    background: #c1bebe;
+    position: absolute;
+    top: 50%;
+    width: 54px;
+    height: 54px;
+    margin-top: -22px;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    z-index: 999999;
+}
+.cooking-range-main .draggable{
+    overflow: unset !important;
+}
+.cooking-range-main .slick-slide{
+    height: fit-content;
+}
+/* Cooking Range SLIDER END */
+
+.featured-cate-shop-by{
+    background: #E7E0D4;
+}
+.featured-cate-shop-by-row{
+    padding: 40px 0 45px;
+}
+.featured-cate-shop-by-row h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 30px;
+}
+.featured-shop-brand{
+    padding: 0;
+    margin-left: 25px;
+    margin-right: -8px;
+    margin-top: 15px;
+    text-align: center;
+}
+.featured-shop-brand img{
+    max-width: 100%;
+}

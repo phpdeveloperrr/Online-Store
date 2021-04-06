@@ -1,0 +1,203 @@
+#sing-in-bg{
+    background-size: cover;
+    background-position: center center;
+    background-image: url(../assets/login-bg.png);
+}
+.sign-logo{
+    width: 30%;
+    text-align: center;
+    margin-top: 80px;
+    margin: 0 auto;
+    padding-right: 50px;
+}
+.sign-logo img{
+    width: 65%;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.sign-in-content{
+    text-align: center;
+    margin-top: 15px;
+}
+.sign-in-content .welcome-back{
+    font-size: 1.785rem;
+    color: #404553;
+}
+.sign-in-content .sign-your-acc{
+    font-size: 1.785rem;
+    font-weight: 700;
+    margin-top: -24px;
+}
+.sign-in-content .dont-have-acc{
+    margin-top: -10px;
+}
+.sign-in-content .dont-have-acc a{
+    text-decoration: none;
+}
+.sign-in-form .sign-email,
+.sign-in-form .sign-pass{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.sign-email input,
+.sign-pass input{
+    background: none;
+    border-radius: 0px;
+    font-size: 1.214rem;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    border-bottom: 1px solid #a5a8b3;
+    -webkit-appearance: textfield;
+}
+.sign-email input:focus,
+.sign-pass input:focus{
+    box-shadow: none;
+    background: none;
+}
+.sign-in-form .forget-pass{
+    text-align: center;
+    margin-top: 15px;
+}
+.sign-in-form .forget-pass a{
+    text-decoration: none;
+}
+.sign-in-form .sign-submit{
+    text-align: center;
+}
+.sign-in-form .sign-submit button{
+    width: 25%;
+    border: none;
+    border-radius: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.sign-in-form .sign-submit button:focus{
+    box-shadow: none;
+}
+/*  SIGN UP */
+.sign-up-logo{
+    width: 30%;
+    text-align: center;
+    margin-top: 80px;
+    margin: 0 auto;
+    padding-right: 50px;
+}
+.sign-up-logo img{
+    width: 65%;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.sign-up-content{
+    text-align: center;
+    margin-top: 15px;
+}
+.sign-up-content .sign-up-create-acc{
+    font-size: 1.785rem;
+    font-weight: 700;
+}
+.sign-up-content .already-have-acc{
+    margin-top: -10px;
+}
+.sign-up-content .already-have-acc a{
+    text-decoration: none;
+}
+.sign-up-form .sign-up-email,
+.sign-up-form .sign-up-pass,
+.sign-up-form .sign-up-first-name,
+.sign-up-form .sign-up-last-name{
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.sign-up-email input,
+.sign-up-pass input,
+.sign-up-first-name input,
+.sign-up-last-name input{
+    background: none;
+    border-radius: 0px;
+    font-size: 1.214rem;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    font-weight: 600;
+    border-bottom: 1px solid #a5a8b3;
+    -webkit-appearance: textfield;
+}
+.sign-up-email input:focus,
+.sign-up-pass input:focus,
+.sign-up-first-name input:focus,
+.sign-up-last-name input:focus{
+    box-shadow: none;
+    background: none;
+}
+.sign-up-form .sign-up-submit{
+    text-align: center;
+}
+.sign-up-form .sign-up-submit button{
+    width: 25%;
+    border: none;
+    border-radius: 0px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.sign-up-form .sign-up-submit button:focus{
+    box-shadow: none;
+}
+
+/* SIGN IN MEDIA QUERY */
+
+@media (min-width: 200px) and (max-width: 1100px) {
+  
+    .sign-in-form .sign-email,
+    .sign-in-form .sign-pass{ 
+        width: 80%;
+    }
+
+}
+@media (min-width: 200px) and (max-width: 800px) {
+  
+    .sign-logo{ 
+        width: 80%;
+    }
+
+}
+@media (min-width: 200px) and (max-width: 1100px) {
+  
+    .sign-in-form .sign-submit button{ 
+        width: 80%;
+    }
+
+}
+
+/* SIGN UP MEDIA QUERY */
+
+@media (min-width: 200px) and (max-width: 800px) {
+  
+    .sign-up-logo { 
+        width: 80%;
+    }
+
+}
+@media (min-width: 200px) and (max-width: 1100px) {
+  
+    .sign-up-form .sign-up-email,
+    .sign-up-form .sign-up-pass,
+    .sign-up-form .sign-up-first-name,
+    .sign-up-form .sign-up-last-name{ 
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 1100px) {
+  
+    .sign-up-form .sign-up-submit button{ 
+        width: 80%;
+    }
+
+}
